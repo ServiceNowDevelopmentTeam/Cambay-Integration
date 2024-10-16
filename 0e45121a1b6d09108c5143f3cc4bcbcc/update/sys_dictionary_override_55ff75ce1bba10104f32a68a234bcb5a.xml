@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes>readonly_clickthrough=true,ref_contributions=aw_recommendation</attributes>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>assigned_to</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>incident</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual>javascript: new global.u_filterAssignedTo().filterAssignedTo();</reference_qual>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-24 14:30:17</sys_created_on>
+        <sys_id>55ff75ce1bba10104f32a68a234bcb5a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="ITSM Roles - Incident Management (do not activate, see plugin description)" source="com.snc.itsm.roles.incident_management">505c6cef1b651010e7004229bc4bcb10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cambay Integration">0e45121a1b6d09108c5143f3cc4bcbcc</sys_scope>
+        <sys_update_name>sys_dictionary_override_55ff75ce1bba10104f32a68a234bcb5a</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2022-05-26 19:33:00</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Cambay Integration">0e45121a1b6d09108c5143f3cc4bcbcc</claim_owner_scope>
+        <claim_timestamp>17ee53537560000001</claim_timestamp>
+        <metadata_update_name>sys_dictionary_override_55ff75ce1bba10104f32a68a234bcb5a</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Cambay Integration</previous_claim_name>
+        <previous_claim_scope>0e45121a1b6d09108c5143f3cc4bcbcc</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-02-10 19:56:17</sys_created_on>
+        <sys_id>0165925a1b6d09108c5143f3cc4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-02-10 19:56:17</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Cambay Integration">0e45121a1b6d09108c5143f3cc4bcbcc</claim_owner_scope>
+        <claim_timestamp>17ee53537540000001</claim_timestamp>
+        <metadata_update_name>sys_dictionary_override_55ff75ce1bba10104f32a68a234bcb5a</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.itsm.roles.incident_management</previous_claim_name>
+        <previous_claim_scope>com.snc.itsm.roles.incident_mana</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-02-10 19:56:17</sys_created_on>
+        <sys_id>c165925a1b6d09108c5143f3cc4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-02-10 19:56:17</sys_updated_on>
+    </sys_claim>
+</record_update>

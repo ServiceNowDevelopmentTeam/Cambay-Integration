@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>assigned_to</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>sc_task</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual>javascript: new global.u_filterAssignedTo().u_filterAssignedTo();</reference_qual>
+        <reference_qual_override>true</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 15:30:25</sys_created_on>
+        <sys_id>ceff79828750730068ce0cf888cb0bb7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="ITSM Roles - Request Management (do not activate, see plugin description)" source="com.snc.itsm.roles.request_management">685c6cef1b651010e7004229bc4bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cambay Integration">0e45121a1b6d09108c5143f3cc4bcbcc</sys_scope>
+        <sys_update_name>sys_dictionary_override_ceff79828750730068ce0cf888cb0bb7</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2022-05-13 20:09:24</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Cambay Integration">0e45121a1b6d09108c5143f3cc4bcbcc</claim_owner_scope>
+        <claim_timestamp>17ee5353c080000001</claim_timestamp>
+        <metadata_update_name>sys_dictionary_override_ceff79828750730068ce0cf888cb0bb7</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Cambay Integration</previous_claim_name>
+        <previous_claim_scope>0e45121a1b6d09108c5143f3cc4bcbcc</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-02-10 19:56:18</sys_created_on>
+        <sys_id>1965d25a1b6d09108c5143f3cc4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-02-10 19:56:18</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Cambay Integration">0e45121a1b6d09108c5143f3cc4bcbcc</claim_owner_scope>
+        <claim_timestamp>17ee5353c070000001</claim_timestamp>
+        <metadata_update_name>sys_dictionary_override_ceff79828750730068ce0cf888cb0bb7</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.itsm.roles.request_management</previous_claim_name>
+        <previous_claim_scope>com.snc.itsm.roles.request_manag</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-02-10 19:56:18</sys_created_on>
+        <sys_id>d965d25a1b6d09108c5143f3cc4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-02-10 19:56:18</sys_updated_on>
+    </sys_claim>
+</record_update>
